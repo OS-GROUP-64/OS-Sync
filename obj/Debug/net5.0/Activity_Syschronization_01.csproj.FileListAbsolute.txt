@@ -1,0 +1,16 @@
+G:\My Drive\Work\OS\Activity_Syschronization_01\bin\Debug\net5.0\Activity_Syschronization_01.exe
+G:\My Drive\Work\OS\Activity_Syschronization_01\bin\Debug\net5.0\Activity_Syschronization_01.deps.json
+G:\My Drive\Work\OS\Activity_Syschronization_01\bin\Debug\net5.0\Activity_Syschronization_01.runtimeconfig.json
+G:\My Drive\Work\OS\Activity_Syschronization_01\bin\Debug\net5.0\Activity_Syschronization_01.runtimeconfig.dev.json
+G:\My Drive\Work\OS\Activity_Syschronization_01\bin\Debug\net5.0\Activity_Syschronization_01.dll
+G:\My Drive\Work\OS\Activity_Syschronization_01\bin\Debug\net5.0\ref\Activity_Syschronization_01.dll
+G:\My Drive\Work\OS\Activity_Syschronization_01\bin\Debug\net5.0\Activity_Syschronization_01.pdb
+G:\My Drive\Work\OS\Activity_Syschronization_01\obj\Debug\net5.0\Activity_Syschronization_01.csproj.AssemblyReference.cache
+G:\My Drive\Work\OS\Activity_Syschronization_01\obj\Debug\net5.0\Activity_Syschronization_01.GeneratedMSBuildEditorConfig.editorconfig
+G:\My Drive\Work\OS\Activity_Syschronization_01\obj\Debug\net5.0\Activity_Syschronization_01.AssemblyInfoInputs.cache
+G:\My Drive\Work\OS\Activity_Syschronization_01\obj\Debug\net5.0\Activity_Syschronization_01.AssemblyInfo.cs
+G:\My Drive\Work\OS\Activity_Syschronization_01\obj\Debug\net5.0\Activity_Syschronization_01.csproj.CoreCompileInputs.cache
+G:\My Drive\Work\OS\Activity_Syschronization_01\obj\Debug\net5.0\Activity_Syschronization_01.dll
+G:\My Drive\Work\OS\Activity_Syschronization_01\obj\Debug\net5.0\ref\Activity_Syschronization_01.dll
+G:\My Drive\Work\OS\Activity_Syschronization_01\obj\Debug\net5.0\Activity_Syschronization_01.pdb
+G:\My Drive\Work\OS\Activity_Syschronization_01\obj\Debug\net5.0\Activity_Syschronization_01.genruntimeconfig.cache
