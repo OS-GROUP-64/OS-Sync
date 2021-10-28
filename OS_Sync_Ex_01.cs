@@ -7,19 +7,27 @@ namespace OS_Sync_Ex_01
     class Program
     {
         private static int sum = 0;
+        private static object _Lock = new object();
 
         static void plus()
         {
             int i;
             for (i = 1; i < 1000001; i++)
-                sum += i;
+                lock(_Lock)
+                {
+                    sum += i;
+                }
+                
         }
 
         static void minus()
         {
             int i;
-            for (i = 0; i < 1000000; i++)          
-                sum -= i;
+            for (i = 0; i < 1000000; i++)
+                lock(_Lock){
+                    sum -= i;
+                }    
+                
         }
         static void Main(string[] args)
         {
@@ -35,7 +43,7 @@ namespace OS_Sync_Ex_01
 
             P.Join();
             M.Join();
-            
+
             sw.Stop();
             Console.WriteLine("sum = {0}", sum);
             Console.WriteLine("Time used: " + sw.ElapsedMilliseconds.ToString() + "ms");
