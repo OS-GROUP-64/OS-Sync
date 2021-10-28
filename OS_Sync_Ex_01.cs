@@ -23,14 +23,19 @@ namespace OS_Sync_Ex_01
         }
         static void Main(string[] args)
         {
-            // Thread P = new Thread(new ThreadStart(plus));
-            // Thread M = new Thread(new ThreadStart(minus));
+            Thread P = new Thread(new ThreadStart(plus));
+            Thread M = new Thread(new ThreadStart(minus));
 
             Stopwatch sw = new Stopwatch();
             Console.WriteLine("Start...");
             sw.Start();
-            plus();
-            minus();
+
+            P.Start();
+            M.Start();
+
+            P.Join();
+            M.Join();
+            
             sw.Stop();
             Console.WriteLine("sum = {0}", sum);
             Console.WriteLine("Time used: " + sw.ElapsedMilliseconds.ToString() + "ms");
