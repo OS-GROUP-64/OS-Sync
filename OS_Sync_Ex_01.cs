@@ -6,42 +6,36 @@ namespace OS_Sync_Ex_01
 {
     class Program
     {
-        private static int sum = 0;
-        private static object _Lock = new object();
+        private static string x = "";
+        private static int exitflag = 0;
 
-        static void plus()
+        static void ThReadX()
         {
-            int i;
-            lock(_Lock)
-            for (i = 1; i < 1000001; i++)
-                sum += i;
+            while (exitflag == 0)
+                Console.WriteLine("X = {0}", x);
         }
 
-        static void minus()
+        static void ThWriteX()
         {
-            int i;
-            lock(_Lock)
-            for (i = 0; i < 1000000; i++)
-                sum -= i;
+            string xx;
+            while (exitflag == 0)
+            {
+                Console.Write("Input: ");
+                xx = Console.ReadLine();
+                if (xx == "exit")
+                    exitflag = 1;
+                else
+                    x = xx;
+            }
         }
+
         static void Main(string[] args)
         {
-            Thread P = new Thread(new ThreadStart(plus));
-            Thread M = new Thread(new ThreadStart(minus));
+            Thread A = new Thread(ThReadX);
+            Thread B = new Thread(ThWriteX);
 
-            Stopwatch sw = new Stopwatch();
-            Console.WriteLine("Start...");
-            sw.Start();
-
-            P.Start();
-            M.Start();
-
-            P.Join();
-            M.Join();
-
-            sw.Stop();
-            Console.WriteLine("sum = {0}", sum);
-            Console.WriteLine("Time used: " + sw.ElapsedMilliseconds.ToString() + "ms");
+            A.Start();
+            B.Start();
         }
     }
 }
