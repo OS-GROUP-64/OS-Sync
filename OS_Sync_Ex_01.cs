@@ -8,18 +8,11 @@ namespace OS_Sync_Ex_01
     {
         private static string x = "";
         private static int exitflag = 0;
-        private static int updateFlag = 0;
 
-        static void ThReadX(object i)
+        static void ThReadX()
         {
             while (exitflag == 0)
-            {
-                if (x != "exit")
-                {
-                    Console.WriteLine("***Thread {0} : x = {1}***", i, x);
-                }
-            }
-            Console.WriteLine("---Thread {0} exit---", i);
+                Console.WriteLine("X = {0}", x);
         }
 
         static void ThWriteX()
@@ -31,21 +24,18 @@ namespace OS_Sync_Ex_01
                 xx = Console.ReadLine();
                 if (xx == "exit")
                     exitflag = 1;
-                x = xx;
+                else
+                    x = xx;
             }
         }
 
         static void Main(string[] args)
         {
-            Thread A = new Thread(ThWriteX);
-            Thread B = new Thread(ThReadX);
-            Thread C = new Thread(ThReadX);
-            Thread D = new Thread(ThReadX);
+            Thread A = new Thread(ThReadX);
+            Thread B = new Thread(ThWriteX);
 
             A.Start();
             B.Start();
-            C.Start();
-            D.Start();
         }
     }
 }

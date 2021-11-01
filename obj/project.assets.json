@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\My Drive\\Work\\OS\\Activity_Syschronization_01\\OS_Sync_Ex_01.csproj",
-      "projectName": "OS_Sync_Ex_01",
-      "projectPath": "G:\\My Drive\\Work\\OS\\Activity_Syschronization_01\\OS_Sync_Ex_01.csproj",
+      "projectUniqueName": "G:\\My Drive\\Work\\OS\\Activity_Syschronization_01\\Activity_Syschronization_01.csproj",
+      "projectName": "Activity_Syschronization_01",
+      "projectPath": "G:\\My Drive\\Work\\OS\\Activity_Syschronization_01\\Activity_Syschronization_01.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
       "outputPath": "G:\\My Drive\\Work\\OS\\Activity_Syschronization_01\\obj\\",
       "projectStyle": "PackageReference",
