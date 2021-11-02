@@ -6,46 +6,55 @@ namespace OS_Sync_Ex_01
 {
     class Program
     {
+        //private static int sum = 0;
         private static string x = "";
         private static int exitflag = 0;
-        private static int updateFlag = 0;
+        private static object _Lock = new object();
 
-        static void ThReadX(object i)
+        static void ThReadX()
         {
             while (exitflag == 0)
             {
-                if (x != "exit")
+                Thread.Sleep(50);
+                lock (_Lock)
                 {
-                    Console.WriteLine("***Thread {0} : x = {1}***", i, x);
+                    if(exitflag != 1)
+                    Console.WriteLine("X = {0}", x);
+                    else
+                    {
+                        Console.WriteLine("Thread 1 exit");
+                    }
                 }
             }
-            Console.WriteLine("---Thread {0} exit---", i);
-        }
+            
 
+        }
         static void ThWriteX()
         {
             string xx;
             while (exitflag == 0)
-            {
-                Console.Write("Input: ");
-                xx = Console.ReadLine();
-                if (xx == "exit")
-                    exitflag = 1;
-                x = xx;
-            }
+                lock (_Lock)
+                {
+                    Console.Write("Input: ");
+                    xx = Console.ReadLine();
+                    if (xx == "exit")
+                    {
+                        exitflag = 1;
+                    }          
+                    else
+                    {
+                        x = xx;
+                    }
+                }
         }
 
         static void Main(string[] args)
         {
-            Thread A = new Thread(ThWriteX);
-            Thread B = new Thread(ThReadX);
-            Thread C = new Thread(ThReadX);
-            Thread D = new Thread(ThReadX);
+            Thread A = new Thread(ThReadX);
+            Thread B = new Thread(ThWriteX);
 
-            A.Start();
             B.Start();
-            C.Start();
-            D.Start();
+            A.Start();       
         }
     }
 }
