@@ -14,3 +14,35 @@ G:\My Drive\Work\OS\Activity_Syschronization_01\obj\Debug\net5.0\OS_Sync_Ex_01.d
 G:\My Drive\Work\OS\Activity_Syschronization_01\obj\Debug\net5.0\ref\OS_Sync_Ex_01.dll
 G:\My Drive\Work\OS\Activity_Syschronization_01\obj\Debug\net5.0\OS_Sync_Ex_01.pdb
 G:\My Drive\Work\OS\Activity_Syschronization_01\obj\Debug\net5.0\OS_Sync_Ex_01.genruntimeconfig.cache
+E:\3D\OS\OS-Sync\bin\Debug\net5.0\OS_Sync_Ex_01.exe
+E:\3D\OS\OS-Sync\bin\Debug\net5.0\OS_Sync_Ex_01.deps.json
+E:\3D\OS\OS-Sync\bin\Debug\net5.0\OS_Sync_Ex_01.runtimeconfig.json
+E:\3D\OS\OS-Sync\bin\Debug\net5.0\OS_Sync_Ex_01.runtimeconfig.dev.json
+E:\3D\OS\OS-Sync\bin\Debug\net5.0\OS_Sync_Ex_01.dll
+E:\3D\OS\OS-Sync\bin\Debug\net5.0\ref\OS_Sync_Ex_01.dll
+E:\3D\OS\OS-Sync\bin\Debug\net5.0\OS_Sync_Ex_01.pdb
+E:\3D\OS\OS-Sync\obj\Debug\net5.0\OS_Sync_Ex_01.csproj.AssemblyReference.cache
+E:\3D\OS\OS-Sync\obj\Debug\net5.0\OS_Sync_Ex_01.GeneratedMSBuildEditorConfig.editorconfig
+E:\3D\OS\OS-Sync\obj\Debug\net5.0\OS_Sync_Ex_01.AssemblyInfoInputs.cache
+E:\3D\OS\OS-Sync\obj\Debug\net5.0\OS_Sync_Ex_01.AssemblyInfo.cs
+E:\3D\OS\OS-Sync\obj\Debug\net5.0\OS_Sync_Ex_01.csproj.CoreCompileInputs.cache
+E:\3D\OS\OS-Sync\obj\Debug\net5.0\OS_Sync_Ex_01.dll
+E:\3D\OS\OS-Sync\obj\Debug\net5.0\ref\OS_Sync_Ex_01.dll
+E:\3D\OS\OS-Sync\obj\Debug\net5.0\OS_Sync_Ex_01.pdb
+E:\3D\OS\OS-Sync\obj\Debug\net5.0\OS_Sync_Ex_01.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\OS-Sync\bin\Debug\net5.0\OS_Sync_Ex_01.exe
+C:\Users\ASUS\Desktop\OS-Sync\bin\Debug\net5.0\OS_Sync_Ex_01.deps.json
+C:\Users\ASUS\Desktop\OS-Sync\bin\Debug\net5.0\OS_Sync_Ex_01.runtimeconfig.json
+C:\Users\ASUS\Desktop\OS-Sync\bin\Debug\net5.0\OS_Sync_Ex_01.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\OS-Sync\bin\Debug\net5.0\OS_Sync_Ex_01.dll
+C:\Users\ASUS\Desktop\OS-Sync\bin\Debug\net5.0\ref\OS_Sync_Ex_01.dll
+C:\Users\ASUS\Desktop\OS-Sync\bin\Debug\net5.0\OS_Sync_Ex_01.pdb
+C:\Users\ASUS\Desktop\OS-Sync\obj\Debug\net5.0\OS_Sync_Ex_01.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\OS-Sync\obj\Debug\net5.0\OS_Sync_Ex_01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\OS-Sync\obj\Debug\net5.0\OS_Sync_Ex_01.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\OS-Sync\obj\Debug\net5.0\OS_Sync_Ex_01.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\OS-Sync\obj\Debug\net5.0\OS_Sync_Ex_01.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\OS-Sync\obj\Debug\net5.0\OS_Sync_Ex_01.dll
+C:\Users\ASUS\Desktop\OS-Sync\obj\Debug\net5.0\ref\OS_Sync_Ex_01.dll
+C:\Users\ASUS\Desktop\OS-Sync\obj\Debug\net5.0\OS_Sync_Ex_01.pdb
+C:\Users\ASUS\Desktop\OS-Sync\obj\Debug\net5.0\OS_Sync_Ex_01.genruntimeconfig.cache

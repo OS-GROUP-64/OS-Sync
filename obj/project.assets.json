@@ -8,21 +8,17 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\My Drive\\Work\\OS\\Activity_Syschronization_01\\OS_Sync_Ex_01.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\OS-Sync\\OS_Sync_Ex_01.csproj",
       "projectName": "OS_Sync_Ex_01",
-      "projectPath": "G:\\My Drive\\Work\\OS\\Activity_Syschronization_01\\OS_Sync_Ex_01.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\OS-Sync\\OS_Sync_Ex_01.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "G:\\My Drive\\Work\\OS\\Activity_Syschronization_01\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\OS-Sync\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -64,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
